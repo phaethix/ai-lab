@@ -1,0 +1,26 @@
+[project]
+name = "ai-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "phaethix", email = "cn.hylee@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.1.0",
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "jupyterlab>=4.6.4",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "transformers>=5.20.2",
+]
+
+[project.scripts]
+ai-lab = "ai_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
