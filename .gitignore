@@ -12,5 +12,8 @@ wheels/
 # Editors
 .idea/
 
+# Ruff
+.ruff_cache/
+
 # Jupyter
 .ipynb_checkpoints/
